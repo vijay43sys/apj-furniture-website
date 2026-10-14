@@ -26,7 +26,7 @@ export default function Footer({ onNavigate, businessInfo }) {
             </p>
             <div className="flex items-center gap-3 pt-2">
               <a
-                href={businessInfo?.instagramUrl || 'https://instagram.com'}
+                href={businessInfo?.instagramUrl || 'https://www.instagram.com/furnitureapj/'}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-9 h-9 rounded-full bg-brand-warm flex items-center justify-center text-brand-light hover:text-brand-gold hover:bg-brand-brown transition-colors"
@@ -37,7 +37,7 @@ export default function Footer({ onNavigate, businessInfo }) {
                 </svg>
               </a>
               <a
-                href={businessInfo?.facebookUrl || 'https://facebook.com'}
+                href={businessInfo?.facebookUrl || 'https://www.facebook.com/APJ.Furniture.Interior/'}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-9 h-9 rounded-full bg-brand-warm flex items-center justify-center text-brand-light hover:text-brand-gold hover:bg-brand-brown transition-colors"

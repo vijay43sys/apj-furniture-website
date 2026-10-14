@@ -16,7 +16,7 @@ export const sampleBusinessSettings = {
   workingHours: 'Monday - Sunday: 10:00 AM - 10:00 PM',
   googleMapsEmbedUrl: 'https://www.google.com/maps/place/APJ+Furniture+%26+Interior/@13.1083838,80.2040559,17z/data=!3m1!4b1!4m6!3m5!1s0x3a526528b91fb55d:0x6bec90da69290cb5!8m2!3d13.1083838!4d80.2040559!16s%2Fg%2F11zfmv2d7r?entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D',
   instagramUrl: 'https://www.instagram.com/furnitureapj/',
-  facebookUrl: 'https://facebook.com',
+  facebookUrl: 'https://www.facebook.com/APJ.Furniture.Interior/',
   aboutStoryTitle: 'Crafting Beautiful Spaces Since 2010',
   aboutStoryText: 'APJ Interior & Furniture started with a simple vision — to create beautiful, functional and affordable spaces for every home and business. With years of experience in the industry, we specialize in custom interiors, modern furniture and complete space solutions.',
   statsYearsExperience: 14,
