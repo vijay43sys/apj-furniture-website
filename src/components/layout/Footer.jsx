@@ -184,11 +184,7 @@ export default function Footer({ onNavigate, businessInfo }) {
           </div>
         </div>
 
-        {businessInfo?.isDemoNoticeActive && (
-          <div className="mt-4 p-3 rounded bg-brand-warm/40 border border-brand-warm text-[11px] text-brand-sand/70 text-center">
-            <strong>Sample Demonstration Notice:</strong> Product names, imagery, prices, and testimonials shown are mock samples. All live content will be published directly by the business owner via Sanity CMS.
-          </div>
-        )}
+        
       </div>
     </footer>
   );
