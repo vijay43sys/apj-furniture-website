@@ -4,7 +4,7 @@
  * @returns {string}
  */
 export function sanitizeWhatsAppNumber(phone) {
-  if (!phone) return '919876543210';
+  if (!phone) return '919841079487';
   const digits = phone.replace(/\D/g, '');
   // Default to India country code 91 if 10 digits provided
   if (digits.length === 10) {

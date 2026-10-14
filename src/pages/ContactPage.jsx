@@ -106,10 +106,10 @@ export default function ContactPage({
                 <div>
                   <h4 className="text-xs uppercase tracking-wider font-bold text-brand-muted">Phone</h4>
                   <a
-                    href={`tel:${businessInfo?.phone || '+919876543210'}`}
+                    href={`tel:${businessInfo?.phone || '+919841079487'}`}
                     className="text-base font-bold text-brand-espresso hover:text-brand-caramel transition-colors"
                   >
-                    {businessInfo?.phone || '+91 98765 43210'}
+                    {businessInfo?.phone || '+91 9841079487'}
                   </a>
                   <p className="text-xs text-brand-muted mt-0.5">
                     {businessInfo?.workingHours || 'Mon - Sat: 9:00 AM - 7:00 PM'}
@@ -222,7 +222,7 @@ export default function ContactPage({
                       type="tel"
                       name="phone"
                       required
-                      placeholder="e.g. 9876543210"
+                      placeholder="e.g. 9841079487"
                       value={formData.phone}
                       onChange={handleChange}
                       className="w-full px-4 py-3 rounded-xl border border-brand-border focus:border-brand-espresso focus:ring-1 focus:ring-brand-espresso text-sm text-brand-espresso bg-brand-cream/30 outline-none transition-all"

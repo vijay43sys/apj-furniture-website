@@ -10,7 +10,6 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@codemirror/view": "^6.43.13",
     "@sanity/client": "^8.7.0",
     "@sanity/icons": "^5.2.3",
     "@sanity/image-url": "^2.1.1",
@@ -19,8 +18,8 @@
     "lucide-react": "^1.48.0",
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
-    "sanity": "6.17.0",
-    "styled-components": "^6.5.3"
+    "styled-components": "^6.5.3",
+    "sanity": "6.17.0"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
